@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_curriculum_coding_exercises",
+  "info": {
+    "name": "codingExercise",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "question": {
+      "type": "richtext"
+    },
+    "response": {
+      "type": "richtext"
+    }
+  }
+}

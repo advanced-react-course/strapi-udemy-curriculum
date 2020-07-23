@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_curriculum_articles",
+  "info": {
+    "name": "article",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

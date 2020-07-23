@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_curriculum_lectures",
+  "info": {
+    "name": "lecture",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "resource": {
+      "model": "resource"
+    }
+  }
+}

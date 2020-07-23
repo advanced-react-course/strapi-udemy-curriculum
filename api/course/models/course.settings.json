@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "course"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "curriculum": {
+      "type": "dynamiczone",
+      "components": [
+        "curriculum.article",
+        "curriculum.coding-exercise",
+        "curriculum.lecture"
+      ]
+    }
+  }
+}
